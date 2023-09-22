@@ -1,0 +1,10 @@
+docker build -t pp-img -f C:\Users\KIIT\Desktop\SpecFlowExercise\Practice_Project\PP_WebAppDocker\PP_WebAppDocker\PP_WebAppDocker\Dockerfile . WebAppDocker\PP_WebAppDocker\Dockerfile .
+
+docker ps
+
+docker images
+
+docker run -it --rm -p 5200:80 pp-img pp-container
+
+
+
